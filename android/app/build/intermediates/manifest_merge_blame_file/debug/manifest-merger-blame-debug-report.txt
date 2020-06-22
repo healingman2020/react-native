@@ -1,0 +1,427 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.shopkitty"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Volumes/workspace/shopkitty-master/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Volumes/workspace/shopkitty-master/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:3:5-65
+12-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:3:22-62
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:4:5-67
+13-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:4:22-64
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:5:5-80
+14-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:5:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:6:5-81
+15-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:6:22-78
+16    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+16-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:7:5-73
+16-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:7:22-70
+17    <uses-permission android:name="android.permission.READ_CONTACTS" />
+17-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:8:5-72
+17-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:8:22-69
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[com.facebook.flipper:flipper:0.33.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/ae9c0360f12a2cedf4ac145013c190a7/jetified-flipper-0.33.1/AndroidManifest.xml:16:5-76
+18-->[com.facebook.flipper:flipper:0.33.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/ae9c0360f12a2cedf4ac145013c190a7/jetified-flipper-0.33.1/AndroidManifest.xml:16:22-73
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+19-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+20-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+21
+22    <uses-feature
+22-->[:react-native-camera] /Volumes/workspace/shopkitty-master/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
+23        android:name="android.hardware.camera"
+23-->[:react-native-camera] /Volumes/workspace/shopkitty-master/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:12:9-47
+24        android:required="false" />
+24-->[:react-native-camera] /Volumes/workspace/shopkitty-master/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:13:9-33
+25    <uses-feature
+25-->[:react-native-camera] /Volumes/workspace/shopkitty-master/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
+26        android:name="android.hardware.camera.autofocus"
+26-->[:react-native-camera] /Volumes/workspace/shopkitty-master/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:15:9-57
+27        android:required="false" /> <!-- Required to access Google Play Licensing -->
+27-->[:react-native-camera] /Volumes/workspace/shopkitty-master/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:16:9-33
+28    <uses-permission android:name="com.android.vending.CHECK_LICENSE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+28-->[:rn-fetch-blob] /Volumes/workspace/shopkitty-master/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-73
+28-->[:rn-fetch-blob] /Volumes/workspace/shopkitty-master/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-70
+29    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+29-->[com.google.android.gms:play-services-iid:17.0.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/e4cc6ca7709f92c02ede135135851147/play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+29-->[com.google.android.gms:play-services-iid:17.0.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/e4cc6ca7709f92c02ede135135851147/play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+30    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+30-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:26:5-110
+30-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:26:22-107
+31
+32    <application
+32-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:10:5-30:19
+33        android:name="com.shopkitty.MainApplication"
+33-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:11:7-38
+34        android:allowBackup="false"
+34-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:15:7-34
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.1.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/5644a94d9f003a0b90383b8c36ca5e5e/core-1.1.0/AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:icon="@mipmap/ic_launcher"
+37-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:13:7-41
+38        android:label="@string/app_name"
+38-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:12:7-39
+39        android:roundIcon="@mipmap/ic_launcher_round"
+39-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:14:7-52
+40        android:theme="@style/AppTheme"
+40-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:17:7-38
+41        android:usesCleartextTraffic="true" >
+41-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:16:7-42
+42        <activity
+42-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:18:7-28:18
+43            android:name="com.shopkitty.MainActivity"
+43-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:19:9-37
+44            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+44-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:21:9-86
+45            android:label="@string/app_name"
+45-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:20:9-41
+46            android:launchMode="singleTask"
+46-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:22:9-40
+47            android:windowSoftInputMode="adjustResize" >
+47-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:23:9-51
+48            <intent-filter>
+48-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:24:9-27:25
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:25:13-65
+49-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:25:21-62
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:26:13-73
+51-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:26:23-70
+52            </intent-filter>
+53        </activity>
+54        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+54-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:29:7-84
+54-->/Volumes/workspace/shopkitty-master/android/app/src/main/AndroidManifest.xml:29:17-81
+55
+56        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+56-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-111
+56-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-108
+57        <service
+57-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-23:19
+58            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+58-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-95
+59            android:exported="false" >
+59-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-37
+60            <intent-filter>
+60-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
+61                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+61-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
+61-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
+62            </intent-filter>
+63        </service>
+64
+65        <receiver
+65-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-32:20
+66            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+66-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-96
+67            android:exported="true"
+67-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-36
+68            android:permission="com.google.android.c2dm.permission.SEND" >
+68-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-73
+69            <intent-filter>
+69-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
+70                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+70-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
+70-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
+71            </intent-filter>
+72        </receiver>
+73
+74        <meta-data
+74-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:9-36:36
+75            android:name="firebase_messaging_auto_init_enabled"
+75-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-64
+76            android:value="true" />
+76-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-33
+77        <meta-data
+77-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-39:32
+78            android:name="com.google.firebase.messaging.default_notification_channel_id"
+78-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-89
+79            android:value="" />
+79-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-29
+80        <meta-data
+80-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:9-42:47
+81            android:name="com.google.firebase.messaging.default_notification_color"
+81-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-84
+82            android:resource="@color/white" />
+82-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-44
+83
+84        <receiver
+84-->[:react-native-device-info] /Volumes/workspace/shopkitty-master/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-21:20
+85            android:name="com.learnium.RNDeviceInfo.RNDeviceReceiver"
+85-->[:react-native-device-info] /Volumes/workspace/shopkitty-master/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-70
+86            android:enabled="true"
+86-->[:react-native-device-info] /Volumes/workspace/shopkitty-master/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-35
+87            android:exported="true" >
+87-->[:react-native-device-info] /Volumes/workspace/shopkitty-master/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-36
+88            <intent-filter>
+88-->[:react-native-device-info] /Volumes/workspace/shopkitty-master/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-20:29
+89                <action android:name="com.android.vending.INSTALL_REFERRER" />
+89-->[:react-native-device-info] /Volumes/workspace/shopkitty-master/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-79
+89-->[:react-native-device-info] /Volumes/workspace/shopkitty-master/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:25-76
+90            </intent-filter>
+91        </receiver>
+92
+93        <provider
+93-->[:react-native-image-picker] /Volumes/workspace/shopkitty-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+94            android:name="com.imagepicker.FileProvider"
+94-->[:react-native-image-picker] /Volumes/workspace/shopkitty-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+95            android:authorities="com.shopkitty.provider"
+95-->[:react-native-image-picker] /Volumes/workspace/shopkitty-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+96            android:exported="false"
+96-->[:react-native-image-picker] /Volumes/workspace/shopkitty-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+97            android:grantUriPermissions="true" >
+97-->[:react-native-image-picker] /Volumes/workspace/shopkitty-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+98            <meta-data
+98-->[:react-native-image-picker] /Volumes/workspace/shopkitty-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+99                android:name="android.support.FILE_PROVIDER_PATHS"
+99-->[:react-native-image-picker] /Volumes/workspace/shopkitty-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+100                android:resource="@xml/provider_paths" />
+100-->[:react-native-image-picker] /Volumes/workspace/shopkitty-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+101        </provider>
+102        <provider
+102-->[:react-native-webview] /Volumes/workspace/shopkitty-master/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+103            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+103-->[:react-native-webview] /Volumes/workspace/shopkitty-master/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+104            android:authorities="com.shopkitty.fileprovider"
+104-->[:react-native-webview] /Volumes/workspace/shopkitty-master/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+105            android:exported="false"
+105-->[:react-native-webview] /Volumes/workspace/shopkitty-master/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+106            android:grantUriPermissions="true" >
+106-->[:react-native-webview] /Volumes/workspace/shopkitty-master/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+107            <meta-data
+107-->[:react-native-image-picker] /Volumes/workspace/shopkitty-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+108                android:name="android.support.FILE_PROVIDER_PATHS"
+108-->[:react-native-image-picker] /Volumes/workspace/shopkitty-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+109                android:resource="@xml/file_provider_paths" />
+109-->[:react-native-image-picker] /Volumes/workspace/shopkitty-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+110        </provider>
+111        <provider
+111-->[:rn-fetch-blob] /Volumes/workspace/shopkitty-master/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-44:20
+112            android:name="com.RNFetchBlob.Utils.FileProvider"
+112-->[:rn-fetch-blob] /Volumes/workspace/shopkitty-master/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-62
+113            android:authorities="com.shopkitty.provider"
+113-->[:rn-fetch-blob] /Volumes/workspace/shopkitty-master/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-60
+114            android:exported="false"
+114-->[:rn-fetch-blob] /Volumes/workspace/shopkitty-master/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-37
+115            android:grantUriPermissions="true" >
+115-->[:rn-fetch-blob] /Volumes/workspace/shopkitty-master/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-47
+116            <meta-data
+116-->[:react-native-image-picker] /Volumes/workspace/shopkitty-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+117                android:name="android.support.FILE_PROVIDER_PATHS"
+117-->[:react-native-image-picker] /Volumes/workspace/shopkitty-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+118                android:resource="@xml/provider_paths" />
+118-->[:react-native-image-picker] /Volumes/workspace/shopkitty-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+119        </provider>
+120
+121        <service
+121-->[com.google.firebase:firebase-firestore:21.4.3] /Users/killer/.gradle/caches/transforms-2/files-2.1/94a9603825d1689ba5efd4be89a95117/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:17:9-23:19
+122            android:name="com.google.firebase.components.ComponentDiscoveryService"
+122-->[com.google.firebase:firebase-firestore:21.4.3] /Users/killer/.gradle/caches/transforms-2/files-2.1/94a9603825d1689ba5efd4be89a95117/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:18:13-84
+123            android:directBootAware="true"
+123-->[com.google.firebase:firebase-common:19.3.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/ebe2bc868d7695845138ce32e75b74a9/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+124            android:exported="false" >
+124-->[com.google.firebase:firebase-firestore:21.4.3] /Users/killer/.gradle/caches/transforms-2/files-2.1/94a9603825d1689ba5efd4be89a95117/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:19:13-37
+125            <meta-data
+125-->[com.google.firebase:firebase-firestore:21.4.3] /Users/killer/.gradle/caches/transforms-2/files-2.1/94a9603825d1689ba5efd4be89a95117/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:20:13-22:85
+126                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+126-->[com.google.firebase:firebase-firestore:21.4.3] /Users/killer/.gradle/caches/transforms-2/files-2.1/94a9603825d1689ba5efd4be89a95117/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:21:17-111
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-firestore:21.4.3] /Users/killer/.gradle/caches/transforms-2/files-2.1/94a9603825d1689ba5efd4be89a95117/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:22:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-functions:19.0.2] /Users/killer/.gradle/caches/transforms-2/files-2.1/acb6b059d2826159fb6fcee9a98bdc65/jetified-firebase-functions-19.0.2/AndroidManifest.xml:18:13-20:85
+129                android:name="com.google.firebase.components:com.google.firebase.functions.FunctionsRegistrar"
+129-->[com.google.firebase:firebase-functions:19.0.2] /Users/killer/.gradle/caches/transforms-2/files-2.1/acb6b059d2826159fb6fcee9a98bdc65/jetified-firebase-functions-19.0.2/AndroidManifest.xml:19:17-111
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-functions:19.0.2] /Users/killer/.gradle/caches/transforms-2/files-2.1/acb6b059d2826159fb6fcee9a98bdc65/jetified-firebase-functions-19.0.2/AndroidManifest.xml:20:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-messaging:20.1.7] /Users/killer/.gradle/caches/transforms-2/files-2.1/21f9f6e2915a65b3adcf9984c10a96c7/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:38:13-40:85
+132                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+132-->[com.google.firebase:firebase-messaging:20.1.7] /Users/killer/.gradle/caches/transforms-2/files-2.1/21f9f6e2915a65b3adcf9984c10a96c7/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:39:17-119
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-messaging:20.1.7] /Users/killer/.gradle/caches/transforms-2/files-2.1/21f9f6e2915a65b3adcf9984c10a96c7/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:40:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/killer/.gradle/caches/transforms-2/files-2.1/b5802a94eee29c3c24fa995ec1e9bb99/firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+135                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+135-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/killer/.gradle/caches/transforms-2/files-2.1/b5802a94eee29c3c24fa995ec1e9bb99/firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/killer/.gradle/caches/transforms-2/files-2.1/b5802a94eee29c3c24fa995ec1e9bb99/firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+137            <meta-data
+137-->[com.google.firebase:firebase-auth:19.3.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/d9bb46e8bce0cfe4ee952557747c03ef/firebase-auth-19.3.1/AndroidManifest.xml:36:13-38:85
+138                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+138-->[com.google.firebase:firebase-auth:19.3.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/d9bb46e8bce0cfe4ee952557747c03ef/firebase-auth-19.3.1/AndroidManifest.xml:37:17-109
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.firebase:firebase-auth:19.3.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/d9bb46e8bce0cfe4ee952557747c03ef/firebase-auth-19.3.1/AndroidManifest.xml:38:17-82
+140            <meta-data
+140-->[com.google.android.gms:play-services-measurement-api:17.4.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/17a7ece950741a755abfeed58077a9c1/play-services-measurement-api-17.4.1/AndroidManifest.xml:30:13-32:85
+141                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+141-->[com.google.android.gms:play-services-measurement-api:17.4.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/17a7ece950741a755abfeed58077a9c1/play-services-measurement-api-17.4.1/AndroidManifest.xml:31:17-139
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.android.gms:play-services-measurement-api:17.4.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/17a7ece950741a755abfeed58077a9c1/play-services-measurement-api-17.4.1/AndroidManifest.xml:32:17-82
+143            <meta-data
+143-->[com.google.firebase:firebase-iid:20.1.7] /Users/killer/.gradle/caches/transforms-2/files-2.1/d547957b3dec73e4efc36ddef7d61a5f/firebase-iid-20.1.7/AndroidManifest.xml:32:13-34:85
+144                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+144-->[com.google.firebase:firebase-iid:20.1.7] /Users/killer/.gradle/caches/transforms-2/files-2.1/d547957b3dec73e4efc36ddef7d61a5f/firebase-iid-20.1.7/AndroidManifest.xml:33:17-96
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-iid:20.1.7] /Users/killer/.gradle/caches/transforms-2/files-2.1/d547957b3dec73e4efc36ddef7d61a5f/firebase-iid-20.1.7/AndroidManifest.xml:34:17-82
+146            <meta-data
+146-->[com.google.firebase:firebase-storage:19.1.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/511c961d364837eaaf02c78f50eb9ce3/firebase-storage-19.1.1/AndroidManifest.xml:33:13-35:85
+147                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+147-->[com.google.firebase:firebase-storage:19.1.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/511c961d364837eaaf02c78f50eb9ce3/firebase-storage-19.1.1/AndroidManifest.xml:34:17-107
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.firebase:firebase-storage:19.1.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/511c961d364837eaaf02c78f50eb9ce3/firebase-storage-19.1.1/AndroidManifest.xml:35:17-82
+149            <meta-data
+149-->[com.google.firebase:firebase-installations:16.3.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/c7c7934cc207c3d1a3a55f190f19739f/firebase-installations-16.3.0/AndroidManifest.xml:17:13-19:85
+150                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+150-->[com.google.firebase:firebase-installations:16.3.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/c7c7934cc207c3d1a3a55f190f19739f/firebase-installations-16.3.0/AndroidManifest.xml:18:17-127
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.firebase:firebase-installations:16.3.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/c7c7934cc207c3d1a3a55f190f19739f/firebase-installations-16.3.0/AndroidManifest.xml:19:17-82
+152        </service>
+153        <!--
+154             FirebaseMessagingService performs security checks at runtime,
+155             but set to not exported to explicitly avoid allowing another app to call it.
+156        -->
+157        <service
+157-->[com.google.firebase:firebase-messaging:20.1.7] /Users/killer/.gradle/caches/transforms-2/files-2.1/21f9f6e2915a65b3adcf9984c10a96c7/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:28:9-34:19
+158            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+158-->[com.google.firebase:firebase-messaging:20.1.7] /Users/killer/.gradle/caches/transforms-2/files-2.1/21f9f6e2915a65b3adcf9984c10a96c7/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:29:13-82
+159            android:exported="false" >
+159-->[com.google.firebase:firebase-messaging:20.1.7] /Users/killer/.gradle/caches/transforms-2/files-2.1/21f9f6e2915a65b3adcf9984c10a96c7/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:30:13-37
+160            <intent-filter android:priority="-500" >
+160-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
+161                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+161-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
+161-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
+162            </intent-filter>
+163        </service>
+164        <service
+164-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/59638accaee2d681a62d79c18c759ea7/transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+165            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+165-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/59638accaee2d681a62d79c18c759ea7/transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+166            android:exported="false" >
+166-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/59638accaee2d681a62d79c18c759ea7/transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+167            <meta-data
+167-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/59638accaee2d681a62d79c18c759ea7/transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+168                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+168-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/59638accaee2d681a62d79c18c759ea7/transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+169                android:value="cct" />
+169-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/59638accaee2d681a62d79c18c759ea7/transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+170        </service>
+171        <service
+171-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/923e9e2d95fddf80a3111ce1b2e78a68/transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+172            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+172-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/923e9e2d95fddf80a3111ce1b2e78a68/transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+173            android:exported="false"
+173-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/923e9e2d95fddf80a3111ce1b2e78a68/transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+174            android:permission="android.permission.BIND_JOB_SERVICE" >
+174-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/923e9e2d95fddf80a3111ce1b2e78a68/transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+175        </service>
+176
+177        <receiver
+177-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/923e9e2d95fddf80a3111ce1b2e78a68/transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+178            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+178-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/923e9e2d95fddf80a3111ce1b2e78a68/transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+179            android:exported="false" />
+179-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/923e9e2d95fddf80a3111ce1b2e78a68/transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+180
+181        <activity
+181-->[com.google.firebase:firebase-auth:19.3.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/d9bb46e8bce0cfe4ee952557747c03ef/firebase-auth-19.3.1/AndroidManifest.xml:24:9-31:50
+182            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+182-->[com.google.firebase:firebase-auth:19.3.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/d9bb46e8bce0cfe4ee952557747c03ef/firebase-auth-19.3.1/AndroidManifest.xml:25:13-85
+183            android:excludeFromRecents="true"
+183-->[com.google.firebase:firebase-auth:19.3.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/d9bb46e8bce0cfe4ee952557747c03ef/firebase-auth-19.3.1/AndroidManifest.xml:26:13-46
+184            android:exported="true"
+184-->[com.google.firebase:firebase-auth:19.3.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/d9bb46e8bce0cfe4ee952557747c03ef/firebase-auth-19.3.1/AndroidManifest.xml:27:13-36
+185            android:launchMode="singleTask"
+185-->[com.google.firebase:firebase-auth:19.3.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/d9bb46e8bce0cfe4ee952557747c03ef/firebase-auth-19.3.1/AndroidManifest.xml:28:13-44
+186            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+186-->[com.google.firebase:firebase-auth:19.3.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/d9bb46e8bce0cfe4ee952557747c03ef/firebase-auth-19.3.1/AndroidManifest.xml:29:13-102
+187            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+187-->[com.google.firebase:firebase-auth:19.3.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/d9bb46e8bce0cfe4ee952557747c03ef/firebase-auth-19.3.1/AndroidManifest.xml:30:13-72
+188
+189        <receiver
+189-->[com.google.firebase:firebase-iid:20.1.7] /Users/killer/.gradle/caches/transforms-2/files-2.1/d547957b3dec73e4efc36ddef7d61a5f/firebase-iid-20.1.7/AndroidManifest.xml:37:9-44:20
+190            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+190-->[com.google.firebase:firebase-iid:20.1.7] /Users/killer/.gradle/caches/transforms-2/files-2.1/d547957b3dec73e4efc36ddef7d61a5f/firebase-iid-20.1.7/AndroidManifest.xml:38:13-78
+191            android:exported="true"
+191-->[com.google.firebase:firebase-iid:20.1.7] /Users/killer/.gradle/caches/transforms-2/files-2.1/d547957b3dec73e4efc36ddef7d61a5f/firebase-iid-20.1.7/AndroidManifest.xml:39:13-36
+192            android:permission="com.google.android.c2dm.permission.SEND" >
+192-->[com.google.firebase:firebase-iid:20.1.7] /Users/killer/.gradle/caches/transforms-2/files-2.1/d547957b3dec73e4efc36ddef7d61a5f/firebase-iid-20.1.7/AndroidManifest.xml:40:13-73
+193            <intent-filter>
+193-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
+194                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+194-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
+194-->[:react-native-firebase_messaging] /Volumes/workspace/shopkitty-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
+195            </intent-filter>
+196        </receiver>
+197        <receiver
+197-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:29:9-33:20
+198            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+198-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:30:13-85
+199            android:enabled="true"
+199-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:31:13-35
+200            android:exported="false" >
+200-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:32:13-37
+201        </receiver>
+202
+203        <service
+203-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:35:9-38:40
+204            android:name="com.google.android.gms.measurement.AppMeasurementService"
+204-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:36:13-84
+205            android:enabled="true"
+205-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:37:13-35
+206            android:exported="false" />
+206-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:38:13-37
+207        <service
+207-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:39:9-43:72
+208            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+208-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:40:13-87
+209            android:enabled="true"
+209-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:41:13-35
+210            android:exported="false"
+210-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:42:13-37
+211            android:permission="android.permission.BIND_JOB_SERVICE" />
+211-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/killer/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:43:13-69
+212
+213        <activity
+213-->[com.google.android.gms:play-services-base:17.1.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/3959cc7c4a76d5bd6c1745e2e05912dc/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+214            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+214-->[com.google.android.gms:play-services-base:17.1.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/3959cc7c4a76d5bd6c1745e2e05912dc/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+215            android:exported="false"
+215-->[com.google.android.gms:play-services-base:17.1.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/3959cc7c4a76d5bd6c1745e2e05912dc/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+216            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+216-->[com.google.android.gms:play-services-base:17.1.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/3959cc7c4a76d5bd6c1745e2e05912dc/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+217
+218        <provider
+218-->[com.google.firebase:firebase-common:19.3.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/ebe2bc868d7695845138ce32e75b74a9/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+219            android:name="com.google.firebase.provider.FirebaseInitProvider"
+219-->[com.google.firebase:firebase-common:19.3.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/ebe2bc868d7695845138ce32e75b74a9/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+220            android:authorities="com.shopkitty.firebaseinitprovider"
+220-->[com.google.firebase:firebase-common:19.3.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/ebe2bc868d7695845138ce32e75b74a9/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+221            android:exported="false"
+221-->[com.google.firebase:firebase-common:19.3.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/ebe2bc868d7695845138ce32e75b74a9/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+222            android:initOrder="100" />
+222-->[com.google.firebase:firebase-common:19.3.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/ebe2bc868d7695845138ce32e75b74a9/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+223
+224        <meta-data
+224-->[com.google.android.gms:play-services-basement:17.0.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/f62957a6844335e2200a1a9c76239ce1/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+225            android:name="com.google.android.gms.version"
+225-->[com.google.android.gms:play-services-basement:17.0.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/f62957a6844335e2200a1a9c76239ce1/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+226            android:value="@integer/google_play_services_version" />
+226-->[com.google.android.gms:play-services-basement:17.0.0] /Users/killer/.gradle/caches/transforms-2/files-2.1/f62957a6844335e2200a1a9c76239ce1/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+227    </application>
+228
+229</manifest>
